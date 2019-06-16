@@ -12,11 +12,10 @@ fpn = 'Your number is divisibile for a Prime Number btw 67 and 107'
 pn = 'Your number is a Prime Number!'
 si = 'Your number is divisible for '
 prime_number = [1, 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61]
-intero = [67, 71, 73, 79, 83, 89, 97, 101, 103, 107]
+intero = [67.0, 71.0, 73.0, 79.0, 83.0, 89.0, 97.0, 101.0, 103.0, 107.0]
 print ('Type an integer number')
 x = int (input ())
 print ('Your number is ',x)
-
 if x in prime_number: print (pn)
 if x in intero: print (pn)
 
